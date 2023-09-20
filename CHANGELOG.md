@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.1](https://github.com/flowcore-io/typescript-transformer-passthrough/compare/v1.0.0...v1.0.1) (2023-09-20)
+
+
+### Bug Fixes
+
+* fixed return values for eventid and validtime ([016f06b](https://github.com/flowcore-io/typescript-transformer-passthrough/commit/016f06b00c583ecdbe445f404648e358867d95f7))
+* fixed tests ([0a03c7c](https://github.com/flowcore-io/typescript-transformer-passthrough/commit/0a03c7c428f77c6f0e6719d11633a8f9c498f96f))
+
 ## 1.0.0 (2023-09-20)
 
 
