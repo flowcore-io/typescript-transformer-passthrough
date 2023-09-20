@@ -4,5 +4,4 @@
 // -----------------------------------------------------------------------------
 
 export default async function() {
-  console.log("Hello from start");
 }

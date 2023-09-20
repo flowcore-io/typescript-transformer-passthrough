@@ -2,13 +2,22 @@
   {
     "input": {
       "hello": "world",
-      "bar": "baz"
+      "bar": "baz",
+      "complex": {
+        "foo": "bar",
+        "bar": "baz",
+        "baz": {
+          "foo": "bar",
+          "bar": "baz"
+        }
+      }
     },
     "output": {
       "eventId": ":uuid:",
       "validTime": ":date:",
       "hello": "world",
-      "bar": "baz"
+      "bar": "baz",
+      "complex": "{\"foo\":\"bar\",\"bar\":\"baz\",\"baz\":{\"foo\":\"bar\",\"bar\":\"baz\"}}"
     }
   },
   {

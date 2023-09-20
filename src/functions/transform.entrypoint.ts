@@ -4,6 +4,7 @@
 // to transform an event, the return value of this function will be passed to
 // the read model adapter.
 // -----------------------------------------------------------------------------
+
 interface Input<T = any> {
   eventId: string;
   validTime: string;
@@ -11,10 +12,23 @@ interface Input<T = any> {
 }
 
 export default async function (input: Input) {
-  console.info(`Received event ${input.eventId}, with payload ${JSON.stringify(input.payload)} and valid time ${input.validTime}`);
+  const result: Record<string, unknown> = {};
+
+  for (const key in input.payload) {
+    if (Object.prototype.hasOwnProperty.call(input.payload, key)) {
+      const value = input.payload[key];
+
+      if (typeof value !== "string") {
+        result[key] = JSON.stringify(value);
+      } else {
+        result[key] = value;
+      }
+    }
+  }
+
   return {
     eventId: input.eventId,
     validTime: input.validTime,
-    ...input.payload,
+    ...result,
   };
 }
