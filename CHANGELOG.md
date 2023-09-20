@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.0 (2023-09-20)
+
+
+### Features
+
+* initial commit that passes through all data ([3ea4a99](https://github.com/flowcore-io/typescript-transformer-passthrough/commit/3ea4a992e7c72553e79b93ee57ce7a15ab649d02))
+
 ## [1.3.0](https://github.com/flowcore-io/nodejs-typescript-transformer-example/compare/v1.2.0...v1.3.0) (2023-09-12)
 
 
