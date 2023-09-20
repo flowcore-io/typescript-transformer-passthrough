@@ -27,8 +27,8 @@ export default async function (input: Input) {
   }
 
   return {
-    eventId: input.eventId,
-    validTime: input.validTime,
+    eventid: input.eventId,
+    validtime: input.validTime,
     ...result,
   };
 }
