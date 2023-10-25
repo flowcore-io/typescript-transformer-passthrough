@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "runtime": "node",
   "artifactUrl": "/app/transformers/test-transformer",
-  "entrypoint": "main.js",
+  "entrypoint": "main.mjs",
   "startTimeTimeout": 10000,
   "port": 10000
 }
