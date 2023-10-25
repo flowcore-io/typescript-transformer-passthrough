@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.1](https://github.com/flowcore-io/typescript-transformer-passthrough/compare/v2.0.0...v2.0.1) (2023-10-25)
+
+
+### Bug Fixes
+
+* bumped to version with healthcheck ([da64629](https://github.com/flowcore-io/typescript-transformer-passthrough/commit/da64629e4b8d4e1c92f19d484a3294f529a7c34d))
+
 ## [2.0.0](https://github.com/flowcore-io/typescript-transformer-passthrough/compare/v1.0.1...v2.0.0) (2023-10-24)
 
 
