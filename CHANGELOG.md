@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.0](https://github.com/flowcore-io/typescript-transformer-passthrough/compare/v2.1.0...v2.2.0) (2023-10-25)
+
+
+### Features
+
+* switched back to node for simplicity, removed package.json from final bundle ([672e89e](https://github.com/flowcore-io/typescript-transformer-passthrough/commit/672e89ea6996c24ccb93c8570bd8a52a41e29e83))
+
 ## [2.1.0](https://github.com/flowcore-io/typescript-transformer-passthrough/compare/v2.0.1...v2.1.0) (2023-10-25)
 
 
