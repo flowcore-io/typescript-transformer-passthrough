@@ -19,18 +19,11 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - name: Setup Node.js environment
-        uses: actions/setup-node@v3.5.1
-        with:
-          node-version: "${{ env.NODE_VERSION }}"
-          cache: yarn
-      - name: Yarn install
-        run: |
-          yarn install
+      - uses: oven-sh/setup-bun@v1
       - name: Lint
-        run: yarn lint
+        run: bun run lint
       - name: Build Transformer
-        run: yarn build
+        run: bun run build
       - name: Change Permissions on Dist
         run: chmod -R 777 dist
       - name: List Build Directory
@@ -43,4 +36,4 @@ jobs:
       - name: Test
         env:
           HOST_ADDRESS: 172.17.0.1
-        run: yarn test --runInBand --detectOpenHandles --forceExit
+        run: bun run test --runInBand --detectOpenHandles --forceExit
