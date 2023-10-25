@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.1.0](https://github.com/flowcore-io/typescript-transformer-passthrough/compare/v2.0.1...v2.1.0) (2023-10-25)
+
+
+### Features
+
+* added bun bundler ([e176fa1](https://github.com/flowcore-io/typescript-transformer-passthrough/commit/e176fa175c9449d3a5eec378b437a820e068c046))
+* added bun bundler ([e4ed769](https://github.com/flowcore-io/typescript-transformer-passthrough/commit/e4ed76929a24a18a173a1ae00fcca61dfb4cb5ea))
+* added bun bundler ([84071f7](https://github.com/flowcore-io/typescript-transformer-passthrough/commit/84071f76d2db541db790897c6472dd5fd38ef2dd))
+
 ## [2.0.1](https://github.com/flowcore-io/typescript-transformer-passthrough/compare/v2.0.0...v2.0.1) (2023-10-25)
 
 
