@@ -25,10 +25,12 @@ export default async function (input: Input) {
       }
     }
   }
+  const combinedkey = input.payload.clerkId + "_" + input.payload.doorNo
 
   return {
     eventid: input.eventId,
     validtime: input.validTime,
     ...result,
+    combinedkey,
   };
 }
